@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc031f31-33cb-4264-acf2-da00fb179322" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/ENVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/JSONReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/YAMLReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/basetest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/vwo/logintests/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc031f31-33cb-4264-acf2-da00fb179322" name="Changes" comment="selenium project first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +39,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/bittu/IdeaProjects/SeleniumAdvanceFrameworkPK/src/main/java/com/seleniumadvance/pages/POM"
   }
@@ -80,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707407465385</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium project first commit">
+      <option name="closed" value="true" />
+      <created>1707409869588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707409869588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium project first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium project first commit" />
   </component>
 </project>
