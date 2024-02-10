@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 public class LoginTest extends CommonToAllTest {
 
 
-    @Test
+    @Test(priority = 1)
     public void testLoginNegative() throws Exception {
 
         LoginPage_POM pagePom = new LoginPage_POM();
         pagePom.openURL(PropertyReader.readKey("url"));
-        String error_message  =pagePom.loginToVWONegative();
+        String error_message = pagePom.loginToVWONegative();
         Assertions.assertThat(error_message)
                 .isNotNull()
                 .isNotBlank()
@@ -23,7 +23,7 @@ public class LoginTest extends CommonToAllTest {
 
     }
 
-    @Test
+    @Test(priority = 2)
 
     public void testLoginPositive() throws Exception {
         //who will start the webdriver - CommonToAllTest
