@@ -1,12 +1,13 @@
 package com.seleniumadvance.pages.PageObjectModel;
 
 import com.seleniumadvance.base.CommonToAllPage;
+import com.seleniumadvance.driver.DriverManagerTL;
 import com.seleniumadvance.utils.PropertyReader;
 import org.openqa.selenium.By;
 
 public class LoginPage_POM extends CommonToAllPage {
 
-    LoginPage_POM() {
+    public LoginPage_POM() {
         super();
     }
 
@@ -15,11 +16,16 @@ public class LoginPage_POM extends CommonToAllPage {
     By password = By.id("login-password");
     By signButton = By.id("js-login-btn");
 
-    public LoginPage_POM loginToVWO() throws Exception {
+    public LoginPage_POM loginToVWOPositive() throws Exception {
         enterInput(username, PropertyReader.readKey("username"));
         enterInput(password, PropertyReader.readKey("password"));
         clickElements(signButton);
         //Pass the control to the DashBoard page
+        return this;
+    }
+
+    public LoginPage_POM openURL(String url){
+        DriverManagerTL.getDriver().get(url);
         return this;
     }
 

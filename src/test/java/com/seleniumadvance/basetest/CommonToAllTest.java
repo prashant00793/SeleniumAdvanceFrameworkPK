@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.net.MalformedURLException;
 
-public class BaseTest {
+public class CommonToAllTest {
 
     //To start the WebDriver and down the WebDriver
 

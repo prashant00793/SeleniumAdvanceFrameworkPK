@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc031f31-33cb-4264-acf2-da00fb179322" name="Changes" comment="selenium project first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/vwo/lambdatest/LoginTestRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/DashboardPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/DashboardPage_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/pages/PageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumadvance/utils/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/basetest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/basetest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/basetest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/basetest/CommonToAllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/vwo/logintests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumadvance/vwo/logintests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/bittu/IdeaProjects/SeleniumAdvanceFrameworkPK/src/test/TestNGxmls"
+    "last_opened_file_path": "C:/Users/bittu/IdeaProjects/SeleniumAdvanceFrameworkPK/src/test/TestNGxmls",
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707410918803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="selenium project first commit">
+      <option name="closed" value="true" />
+      <created>1707587513633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707587513633</updated>
+    </task>
+    <task id="LOCAL-00005" summary="selenium project first commit">
+      <option name="closed" value="true" />
+      <created>1707589062058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707589062058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
