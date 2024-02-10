@@ -1,10 +1,10 @@
 package com.seleniumadvance.pages.PageObjectModel;
 
-import com.seleniumadvance.base.BasePage;
+import com.seleniumadvance.base.CommonToAllPage;
 import com.seleniumadvance.utils.PropertyReader;
 import org.openqa.selenium.By;
 
-public class LoginPage_POM extends BasePage {
+public class LoginPage_POM extends CommonToAllPage {
 
     LoginPage_POM() {
         super();

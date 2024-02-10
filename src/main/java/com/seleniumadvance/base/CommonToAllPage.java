@@ -1,20 +1,19 @@
 package com.seleniumadvance.base;
 
-import com.seleniumadvance.driver.DriverManager;
+import com.seleniumadvance.driver.DriverManagerTL;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class BasePage {
+public class CommonToAllPage {
     //Webrivers, URL, Waits , Common Verification can be there in BasePage
     //This page is common to all the pages.
 
-    public BasePage() {
+    public CommonToAllPage() {
         System.out.println("If you want to call something before every Page Object class, Put your code here ");
         //Open some file , open database connection write code here - futuristic approach
     }
@@ -22,35 +21,35 @@ public class BasePage {
     //Waits
 
     public void implicitWait() {
-        DriverManager.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        DriverManagerTL.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
     //Driver Call
     //Common Functions
 
     public void clickElements(By by) {
-        DriverManager.getDriver().findElement(by).click();
+        DriverManagerTL.getDriver().findElement(by).click();
     }
 
     public WebElement presenceofElement(final By elementLocation) {
-        return new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+        return new WebDriverWait(DriverManagerTL.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
     }
 
     public WebElement visibilityOfElement(final By elementLocation) {
-        return new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+        return new WebDriverWait(DriverManagerTL.getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
 
     protected void enterInput(By by, String key) {
-        DriverManager.getDriver().findElement(by).sendKeys(key);
+        DriverManagerTL.getDriver().findElement(by).sendKeys(key);
     }
 
     protected WebElement getElement(By key) {
-        return DriverManager.getDriver().findElement(key);
+        return DriverManagerTL.getDriver().findElement(key);
     }
 
     public void iWaitForElementToBeVisible(WebElement loc, String url) {
         try {
-            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(20));
+            WebDriverWait wait = new WebDriverWait(DriverManagerTL.getDriver(), Duration.ofSeconds(20));
             wait.until(ExpectedConditions.visibilityOfAllElements(loc));
             wait.until(ExpectedConditions.urlContains(url));
         } catch (Exception e) {
