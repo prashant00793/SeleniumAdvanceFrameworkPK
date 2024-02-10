@@ -9,6 +9,20 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends CommonToAllTest {
 
+
+    @Test
+    public void testLoginNegative() throws Exception {
+
+        LoginPage_POM pagePom = new LoginPage_POM();
+        pagePom.openURL(PropertyReader.readKey("url"));
+        String error_message  =pagePom.loginToVWONegative();
+        Assertions.assertThat(error_message)
+                .isNotNull()
+                .isNotBlank()
+                .contains(PropertyReader.readKey("error_message"));
+
+    }
+
     @Test
 
     public void testLoginPositive() throws Exception {

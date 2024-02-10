@@ -16,6 +16,8 @@ public class LoginPage_POM extends CommonToAllPage {
     By password = By.id("login-password");
     By signButton = By.id("js-login-btn");
 
+    By error_message = By.id("js-notification-box-msg");
+
     public LoginPage_POM loginToVWOPositive() throws Exception {
         enterInput(username, PropertyReader.readKey("username"));
         enterInput(password, PropertyReader.readKey("password"));
@@ -29,11 +31,14 @@ public class LoginPage_POM extends CommonToAllPage {
         return this;
     }
 
-    public void loginToVWONegative() throws Exception {
-        enterInput(username, PropertyReader.readKey("username"));
+    public String loginToVWONegative() throws Exception {
+        enterInput(username, "admin");
         enterInput(password, PropertyReader.readKey("password"));
         clickElements(signButton);
         //error String
+        visibilityOfElement(error_message);
+         return  getElement(error_message).getText();
+
     }
 
     public DashboardPage_POM afterLogin() {
